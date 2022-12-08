@@ -6,7 +6,11 @@ body, div, p{
 
 body{
     background: hsl(212, 45%, 89%);
-    max-width: 375px;
+   /* max-width: 375px;*/
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+ 
 }
 
 div{
@@ -16,9 +20,9 @@ div{
     box-sizing: border-box;  /*padding or extra area is included in 350px*/ 
     padding: 15px;
     border-radius: 15px;
-    position: absolute;     /*centerx div. 1-take it out of normal document flow*/
-    left: 50%;           /*2-set at 50% from left and top of page*/
-    top: 50%;
+    /*position: absolute;     /*centerx div. 1-take it out of normal document flow*/
+    /*left: 50%;           /*2-set at 50% from left and top of page*/
+    /*top: 50%;
     transform: translate(-50%, -50%);  /*3-ie move div 50% up and left from its currnt position hence center*/
 
 }
